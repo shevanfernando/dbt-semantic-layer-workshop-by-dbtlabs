@@ -1,15 +1,28 @@
-Welcome to your new dbt project!
+# dbt Semantic Layer – Workshop Project
 
-### Using the starter project
+This repository is based on the official `dbt-labs/getting-started-with-sl-workshop` project.  
+I created this as part of the dbt Labs **Semantic Layer Workshop** to explore and implement semantic layer concepts using dbt.
 
-Try running the following commands:
-- dbt run
-- dbt test
+The project uses the Jaffle Coffee Shop synthetic dataset and focuses on defining metrics, dimensions, and business logic in a centralized, reusable way.
 
+---
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## 📌 Project Overview
+
+- Built using **dbt**
+- Based on **Jaffle Shop / Jaffle Coffee synthetic data**
+- Focused on:
+  - Semantic layer modeling
+  - Defining metrics and dimensions
+  - Standardizing business logic
+  - Enabling consistent analytics across tools
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/shevanfernando/dbt-semantic-layer-workshop-by-dbtlabs.git
+cd dbt-semantic-layer-workshop-by-dbtlabs
